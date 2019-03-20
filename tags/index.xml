@@ -6,19 +6,10 @@
     <description>Recent content in Tags on Glyn Mottershead</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jul 2017 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://egrommet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Academic</title>
-      <link>https://egrommet.github.io/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://egrommet.github.io/tags/academic/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Computational Journalism</title>
@@ -53,24 +44,6 @@
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0100</pubDate>
       
       <guid>https://egrommet.github.io/tags/data-visualisation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://egrommet.github.io/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://egrommet.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>https://egrommet.github.io/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://egrommet.github.io/tags/demo/</guid>
       <description></description>
     </item>
     
@@ -156,15 +129,6 @@
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>https://egrommet.github.io/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://egrommet.github.io/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Social Media</title>
       <link>https://egrommet.github.io/tags/social-media/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
@@ -197,24 +161,6 @@
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>https://egrommet.github.io/tags/twitter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plot</title>
-      <link>https://egrommet.github.io/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://egrommet.github.io/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>https://egrommet.github.io/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://egrommet.github.io/tags/regression/</guid>
       <description></description>
     </item>
     
