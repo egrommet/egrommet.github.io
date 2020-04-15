@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Datajconf on Glyn Mottershead</title>
-    <link>https://www.glynmottershead.com/tags/datajconf/</link>
-    <description>Recent content in Datajconf on Glyn Mottershead</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.glynmottershead.com/tags/datajconf/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Datajconf | Academic</title>
+    <link>/tags/datajconf/</link>
+      <atom:link href="/tags/datajconf/index.xml" rel="self" type="application/rss+xml" />
+    <description>Datajconf</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Datajconf</title>
+      <link>/tags/datajconf/</link>
+    </image>
     
     <item>
       <title>Data Journalism in Malaga</title>
-      <link>https://www.glynmottershead.com/post/2019-07-05-data-journalism-in-malaga/data-journalism-in-malaga/</link>
+      <link>/post/2019-07-05-data-journalism-in-malaga/data-journalism-in-malaga/</link>
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.glynmottershead.com/post/2019-07-05-data-journalism-in-malaga/data-journalism-in-malaga/</guid>
-      <description>I’ve just got back from the third European Data and Computational Journalism Conference in Malaga, Spain, and thought I’d share a few thoughts about the event.
-This is the third time the I’ve helped organise this conference, along with my co-chairs Martin Chorley (Cardiff University) and Bahareh Heravi (University College Dublin), and the first one I’ve done since moving to City, University of London.
-More than 100 people took part in the two days, with participants coming from 14 countries.</description>
+      <guid>/post/2019-07-05-data-journalism-in-malaga/data-journalism-in-malaga/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=WAls1xTwFS0&#34; title=&#34;European Data and Computational Journalism Conference, Malaga&#34;&gt;&lt;img src=&#34;http://img.youtube.com/vi/WAls1xTwFS0/0.jpg&#34; alt=&#34;European Data and Computational Journalism Conference, Malaga&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
