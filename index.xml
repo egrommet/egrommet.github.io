@@ -173,7 +173,7 @@ bikes
 &lt;a href=&#34;https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;API (Application Programming Interface)&lt;/a&gt;, and there are lots of them about. So, a basic understanding of how to get that information into an R dataframe for analysis is really important.&lt;/p&gt;
 &lt;p&gt;And just for an added bonus, we&amp;rsquo;re going to build on the concepts from the 
 &lt;a href=&#34;/tutorial/tidyverse/pivot-tables-in-r/&#34;&gt;pivot table session&lt;/a&gt; to add in a graph using ggplot2 (again a tidyverse tool).&lt;/p&gt;
-&lt;h2 id=&#34;tools-for-the-job&#34;&gt;Tools for the job&lt;/h2&gt;
+&lt;h3 id=&#34;tools-for-the-job&#34;&gt;Tools for the job&lt;/h3&gt;
 &lt;p&gt;We&amp;rsquo;ll be using httr to work with our APIs - it makes it much easier to construct a question. I&amp;rsquo;ve tried using the paste() function to do this in the past and didn&amp;rsquo;t find it easy, httr is much nicer in comparison.&lt;/p&gt;
 &lt;p&gt;The response from our questions is often in the form of either 
 &lt;a href=&#34;https://www.w3schools.com/js/js_json_xml.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JSON or XML&lt;/a&gt;. The documentation for the API will tell you about what form it is in and that will tell us what tools we need to deal with the particular formats.&lt;/p&gt;

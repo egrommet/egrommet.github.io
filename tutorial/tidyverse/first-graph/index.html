@@ -595,9 +595,9 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#getting-the-data">Getting the data</a></li>
-    <li><a href="#tools-for-the-job">Tools for the job</a>
+    <li><a href="#getting-the-data">Getting the data</a>
       <ul>
+        <li><a href="#tools-for-the-job">Tools for the job</a></li>
         <li><a href="#what-are-we-looking-for">What are we looking for?</a></li>
         <li><a href="#building-our-query-web-address">Building our query web address</a></li>
         <li><a href="#a-really-simple-chart">A really simple chart</a></li>
@@ -625,7 +625,7 @@
 <a href="https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/" target="_blank" rel="noopener">API (Application Programming Interface)</a>, and there are lots of them about. So, a basic understanding of how to get that information into an R dataframe for analysis is really important.</p>
 <p>And just for an added bonus, we&rsquo;re going to build on the concepts from the 
 <a href="/tutorial/tidyverse/pivot-tables-in-r/">pivot table session</a> to add in a graph using ggplot2 (again a tidyverse tool).</p>
-<h2 id="tools-for-the-job">Tools for the job</h2>
+<h3 id="tools-for-the-job">Tools for the job</h3>
 <p>We&rsquo;ll be using httr to work with our APIs - it makes it much easier to construct a question. I&rsquo;ve tried using the paste() function to do this in the past and didn&rsquo;t find it easy, httr is much nicer in comparison.</p>
 <p>The response from our questions is often in the form of either 
 <a href="https://www.w3schools.com/js/js_json_xml.asp" target="_blank" rel="noopener">JSON or XML</a>. The documentation for the API will tell you about what form it is in and that will tell us what tools we need to deal with the particular formats.</p>
