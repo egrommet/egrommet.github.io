@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data JouRnalism | Academic</title>
+    <title>Data Journalism | Academic</title>
     <link>/tutorial/</link>
       <atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
-    <description>Data JouRnalism</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0100</lastBuildDate>
+    <description>Data Journalism</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
-      <title>Data JouRnalism</title>
+      <title>Data Journalism</title>
       <link>/tutorial/</link>
     </image>
     

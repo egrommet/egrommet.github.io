@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Academic</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>A pivot table in R</title>
-      <link>/tutorial/datajournalism/pivot-tables-in-r/</link>
-      <pubDate>Tue, 09 Apr 2019 00:00:00 +0100</pubDate>
-      <guid>/tutorial/datajournalism/pivot-tables-in-r/</guid>
+      <title>Pivot tables</title>
+      <link>/tutorial/tidyverse/pivot-tables-in-r/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tutorial/tidyverse/pivot-tables-in-r/</guid>
       <description>&lt;h2 id=&#34;looking-at-police-data-using-tidyverse-tools&#34;&gt;Looking at police data using Tidyverse tools&lt;/h2&gt;
 &lt;p&gt;The Tidyverse tools are one of my favourite things and made my R coding experience much simpler. Most of the things I&amp;rsquo;ll be posting will use them in one way or another.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;re going to find out what happens when someone reports a stolen bicycle - a friend seems to believe the police do nothing, so let&amp;rsquo;s investigate what actually happens.&lt;/p&gt;
@@ -163,16 +163,16 @@ bikes
     </item>
     
     <item>
-      <title>A simple graph from ggplot2</title>
-      <link>/tutorial/datajournalism/first-graph/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0100</pubDate>
-      <guid>/tutorial/datajournalism/first-graph/</guid>
+      <title>First graph in ggplot</title>
+      <link>/tutorial/tidyverse/first-graph/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/tutorial/tidyverse/first-graph/</guid>
       <description>&lt;h2 id=&#34;getting-the-data&#34;&gt;Getting the data&lt;/h2&gt;
 &lt;p&gt;We can, of course, download the data set we want and then use tools such as readr (if it is a csv file) to import the data. But that misses out on quite a powerful way of grabbing information. Many organisations have set up a way of asking questions directly to their database - think about it like a machine-to-machine conversation.&lt;/p&gt;
 &lt;p&gt;This is called an 
 &lt;a href=&#34;https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;API (Application Programming Interface)&lt;/a&gt;, and there are lots of them about. So, a basic understanding of how to get that information into an R dataframe for analysis is really important.&lt;/p&gt;
 &lt;p&gt;And just for an added bonus, we&amp;rsquo;re going to build on the concepts from the 
-&lt;a href=&#34;/tutorial/datajournalism/pivot-tables-in-r/&#34;&gt;pivot table session&lt;/a&gt; to add in a graph using ggplot2 (again a tidyverse tool).&lt;/p&gt;
+&lt;a href=&#34;/tutorial/tidyverse/pivot-tables-in-r/&#34;&gt;pivot table session&lt;/a&gt; to add in a graph using ggplot2 (again a tidyverse tool).&lt;/p&gt;
 &lt;h2 id=&#34;tools-for-the-job&#34;&gt;Tools for the job&lt;/h2&gt;
 &lt;p&gt;We&amp;rsquo;ll be using httr to work with our APIs - it makes it much easier to construct a question. I&amp;rsquo;ve tried using the paste() function to do this in the past and didn&amp;rsquo;t find it easy, httr is much nicer in comparison.&lt;/p&gt;
 &lt;p&gt;The response from our questions is often in the form of either 
@@ -273,7 +273,7 @@ str(vehicle_crimes)
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ggplot(outcomes, aes(x = outcome, y = outcome_count)) +
   geom_col()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/tutorial/datajournalism/first-graph_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/tutorial/tidyverse/first-graph_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;ggplot2 has loads of options to play with to make a better looking chart, but this will give you an idea and an introduction to it. We&amp;rsquo;ll look at this more in due course.&lt;/p&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;As well as importing files, it is possible to get data straight from a web server that allows it using an API - here we&amp;rsquo;ve built an API call, got JSON data back and turned it into a dataframe before going over the pivot table (group by function) and introducing a simple chart.&lt;/p&gt;
@@ -319,6 +319,15 @@ str(vehicle_crimes)
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       <guid>/publication/are-you-talking-book-chapter/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
     </item>
     
     <item>
