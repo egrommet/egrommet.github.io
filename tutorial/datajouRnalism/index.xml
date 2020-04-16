@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0100</lastBuildDate>
+    <title>Overview | Academic</title>
+    <link>/tutorial/datajournalism/</link>
+      <atom:link href="/tutorial/datajournalism/index.xml" rel="self" type="application/rss+xml" />
+    <description>Overview</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
-      <title>Academic</title>
-      <link>/</link>
+      <title>Overview</title>
+      <link>/tutorial/datajournalism/</link>
     </image>
     
     <item>
@@ -278,111 +278,6 @@ str(vehicle_crimes)
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;As well as importing files, it is possible to get data straight from a web server that allows it using an API - here we&amp;rsquo;ve built an API call, got JSON data back and turned it into a dataframe before going over the pivot table (group by function) and introducing a simple chart.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Bridging the Skills Gap: Innovation in Journalism Education</title>
-      <link>/talk/wjec-paris/</link>
-      <pubDate>Tue, 09 Jul 2019 14:00:00 +0100</pubDate>
-      <guid>/talk/wjec-paris/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Journalism in Malaga</title>
-      <link>/post/2019-07-05-data-journalism-in-malaga/data-journalism-in-malaga/</link>
-      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/2019-07-05-data-journalism-in-malaga/data-journalism-in-malaga/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=WAls1xTwFS0&#34; title=&#34;European Data and Computational Journalism Conference, Malaga&#34;&gt;&lt;img src=&#34;http://img.youtube.com/vi/WAls1xTwFS0/0.jpg&#34; alt=&#34;European Data and Computational Journalism Conference, Malaga&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data and Computational Journalism</title>
-      <link>/talk/digital-city/</link>
-      <pubDate>Thu, 04 Apr 2019 13:30:00 +0100</pubDate>
-      <guid>/talk/digital-city/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>When a tech company pulls the plug on your story</title>
-      <link>/publication/nieman-predictions-2019/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/nieman-predictions-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Are You Talking To Me?: An Analysis of Journalism Conversation on Social Media</title>
-      <link>/publication/are-you-talking-book-chapter/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
-      <guid>/publication/are-you-talking-book-chapter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&#39;Can I click it? Yes you can&#39;: Football journalism, Twitter and clickbait</title>
-      <link>/publication/can-i-click-it/</link>
-      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/can-i-click-it/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recoding journalism  education: mind the  skills gap, please!</title>
-      <link>/talk/gap_foj/</link>
-      <pubDate>Sat, 02 Sep 2017 00:00:00 +0100</pubDate>
-      <guid>/talk/gap_foj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The First Commit of History: Visualising News on a Deadline</title>
-      <link>/talk/visualising-on-a-deadline/</link>
-      <pubDate>Wed, 12 Jul 2017 00:00:00 +0100</pubDate>
-      <guid>/talk/visualising-on-a-deadline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Now we are three: A perspective on Computational and Data Journalism Education</title>
-      <link>/talk/now-we-are-three/</link>
-      <pubDate>Thu, 06 Jul 2017 00:00:00 +0100</pubDate>
-      <guid>/talk/now-we-are-three/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Are You Talking To Me?: An Analysis of Journalism Conversation on Social Media</title>
-      <link>/publication/are-you-talking-to-me/</link>
-      <pubDate>Sun, 02 Oct 2016 00:00:00 +0100</pubDate>
-      <guid>/publication/are-you-talking-to-me/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Subediting and production for journalists</title>
-      <link>/publication/subbing-book/</link>
-      <pubDate>Fri, 28 Aug 2015 00:00:00 +0100</pubDate>
-      <guid>/publication/subbing-book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>21st Century Journalism Handbook</title>
-      <link>/publication/21st-century-journalism-handbook/</link>
-      <pubDate>Sun, 01 Jul 2012 00:00:00 +0100</pubDate>
-      <guid>/publication/21st-century-journalism-handbook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning and Knowledge Building with Web 2.0 Technologies: Implications for Teacher Education</title>
-      <link>/publication/learning-and-knowledge-building/</link>
-      <pubDate>Sat, 01 Aug 2009 00:00:00 +0100</pubDate>
-      <guid>/publication/learning-and-knowledge-building/</guid>
-      <description></description>
     </item>
     
   </channel>

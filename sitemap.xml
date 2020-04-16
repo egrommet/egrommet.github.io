@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tutorial/datajournalism/pivot-tables-in-r/</loc>
+    <lastmod>2019-04-09T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorial/datajournalism/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorial/datajournalism/first-graph/</loc>
+    <lastmod>2020-04-16T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-04-16T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorial/</loc>
+    <lastmod>2020-04-16T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
     <lastmod>2019-07-09T14:00:00+01:00</lastmod>
   </url>
@@ -83,28 +108,8 @@
   </url>
   
   <url>
-    <loc>/tutorial/pivot-tables-in-r-looking-at-police-data/</loc>
-    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/police/</loc>
-    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/talk/digital-city/</loc>
     <lastmod>2019-04-04T13:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorial/</loc>
-    <lastmod>2019-03-20T13:53:00+00:00</lastmod>
   </url>
   
   <url>
@@ -160,16 +165,6 @@
   <url>
     <loc>/tags/twitter/</loc>
     <lastmod>2018-09-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>

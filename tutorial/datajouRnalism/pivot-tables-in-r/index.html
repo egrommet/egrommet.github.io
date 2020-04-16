@@ -31,7 +31,7 @@
   <meta name="description" content="Looking at police data using Tidyverse tools The Tidyverse tools are one of my favourite things and made my R coding experience much simpler. Most of the things I&rsquo;ll be posting will use them in one way or another.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/tutorial/pivot-tables-in-r-looking-at-police-data/">
+  <link rel="alternate" hreflang="en-us" href="/tutorial/datajournalism/pivot-tables-in-r/">
 
   
 
@@ -215,7 +215,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/tutorial/pivot-tables-in-r-looking-at-police-data/">
+  <link rel="canonical" href="/tutorial/datajournalism/pivot-tables-in-r/">
 
   
   
@@ -232,15 +232,15 @@
   <meta property="twitter:creator" content="@glynmottershead">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="/tutorial/pivot-tables-in-r-looking-at-police-data/">
-  <meta property="og:title" content="Pivot tables in R - looking at police data | Academic">
+  <meta property="og:url" content="/tutorial/datajournalism/pivot-tables-in-r/">
+  <meta property="og:title" content="A pivot table in R | Academic">
   <meta property="og:description" content="Looking at police data using Tidyverse tools The Tidyverse tools are one of my favourite things and made my R coding experience much simpler. Most of the things I&rsquo;ll be posting will use them in one way or another."><meta property="og:image" content="img/map[gravatar:%!s(bool=true) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=true) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-04-09T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2019-04-09T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2019-04-09T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-04-09T00:00:00&#43;01:00">
   
 
   
@@ -259,7 +259,7 @@
 
 
 
-  <title>Pivot tables in R - looking at police data | Academic</title>
+  <title>A pivot table in R | Academic</title>
 
 </head>
 
@@ -516,23 +516,6 @@
       
 
       
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-palette" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
 
       
 
@@ -542,103 +525,120 @@
 </nav>
 
 
-  <article class="article">
-
   
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-<div class="article-container pt-3">
-  <h1>Pivot tables in R - looking at police data</h1>
-
-  
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
       
+
+
+
+
+
+  
     
-    Apr 9, 2019
-  </span>
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
   
 
   
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorial/datajournalism/">Overview</a>
 
+  </div>
   
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/categories/r/">R</a></span>
-  
-
-</div>
-
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorial/datajournalism/pivot-tables-in-r/">Tidyverse Tools</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/tutorial/datajournalism/pivot-tables-in-r/">First pivot table</a>
+      </li>
+      
+      <li >
+        <a href="/tutorial/datajournalism/first-graph/">Your first graph</a>
+      </li>
+      
+    </ul>
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
   
-</div>
+  
+</nav>
 
+    </div>
 
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
 
-  <div class="article-container">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#looking-at-police-data-using-tidyverse-tools">Looking at police data using Tidyverse tools</a>
+      <ul>
+        <li><a href="#downloading-the-data">Downloading the data</a></li>
+        <li><a href="#getting-started">Getting started</a></li>
+        <li><a href="#create-a-script">Create a script</a></li>
+        <li><a href="#installing-your-first-r-package">Installing your first R Package</a></li>
+      </ul>
+    </li>
+    <li><a href="#loading-data">Loading data</a>
+      <ul>
+        <li><a href="#filtering-with-dplyr">Filtering with dplyr</a></li>
+        <li><a href="#filtering-and-renaming-for-speed">Filtering and renaming for speed</a></li>
+        <li><a href="#doing-a-pivot-table-in-dplyr-syntax">Doing a pivot table in dplyr syntax</a></li>
+      </ul>
+    </li>
+    <li><a href="#tldr-horrible-description-names-are-horrible">TLDR: horrible description names are horrible</a></li>
+  </ul>
+</nav>
 
-    <div class="article-style">
-      <h1 id="looking-at-police-data-using-tidyverse-tools">Looking at police data using Tidyverse tools</h1>
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>A pivot table in R</h1>
+
+          <div class="article-style">
+            <h2 id="looking-at-police-data-using-tidyverse-tools">Looking at police data using Tidyverse tools</h2>
 <p>The Tidyverse tools are one of my favourite things and made my R coding experience much simpler. Most of the things I&rsquo;ll be posting will use them in one way or another.</p>
 <p>We&rsquo;re going to find out what happens when someone reports a stolen bicycle - a friend seems to believe the police do nothing, so let&rsquo;s investigate what actually happens.</p>
-<h2 id="downloading-the-data">Downloading the data</h2>
+<h3 id="downloading-the-data">Downloading the data</h3>
 <p>I&rsquo;ve downloaded a month&rsquo;s worth of data for South Wales Police from 
 <a href="https://data.police.uk/data/" target="_blank" rel="noopener">data.police.uk</a>.</p>
 <p>I&rsquo;m going to do the R equivalent of a pivot table, grouping information together and then analysing it.</p>
-<h2 id="getting-started">Getting started</h2>
+<h3 id="getting-started">Getting started</h3>
 <p>Open RStudio and go to <strong>FILE &gt; NEW PROJECT</strong> then create it in a new folder. This will give you a chance to choose where you want it to go. I tend to have a project folder and then each individual project is stored inside that.</p>
 <p>We&rsquo;ll leave RStudio for a second and head into the computer&rsquo;s file manager to find the folder we just created in RStudio. Inside that I always create a folder called data, I&rsquo;ll then put my downloaded data inside it.</p>
-<h2 id="create-a-script">Create a script</h2>
+<h3 id="create-a-script">Create a script</h3>
 <p>Back inside RStudio, I&rsquo;m going to go to <strong>File menu &gt; New File &gt; R Script</strong>. I&rsquo;m doing this as it allows me to repeat this analysis when I want to. You&rsquo;ll want to give it a name that makes sense and then save it. R files have a <strong>.R</strong> file extension at the end.</p>
-<h2 id="installing-your-first-r-package">Installing your first R Package</h2>
+<h3 id="installing-your-first-r-package">Installing your first R Package</h3>
 <p>A package is a tool, or group of tools, that someone has created to cut out some of the repetition in R. We&rsquo;ll be using the tidyverse by Hadley Wickham. These are a set of really helpful data tools that also make R programming easier to read.</p>
 <p>We can install packages by going to the <strong>Tools menu &gt; Install Packages</strong> and type the name into the pop-up box.</p>
 <p>Or I can write the command (known as a function) into my script, highlight my line of code and hit the <strong>RUN</strong> button at the top of the script. The other way to do it is a line of code - <code>install.packages(&quot;tidyverse&quot;)</code>.</p>
@@ -654,8 +654,8 @@
 It will look like this - <code>read_csv(&quot;file_path&quot;)</code>.</p>
 <p>The full syntax (not the working code I want to use) looks like this:
 <code>data_frame_name &lt;- read_csv(&quot;file_path&quot;)</code></p>
-<p>The <strong>&lt;-</strong> is an assignment symbol, I tend to think of it as a hosepipe which allows the function to pour into the name we give our data frame.</p>
-<p>My file path in the example below says <strong>./</strong> inside the folder we are currently in is a folder called <strong>data</strong> and <strong>/</strong> inside that is a csv file.</p>
+<p>The <strong>&lt;-</strong> is an assignment symbol, I tend to think of it as a hosepipe which allows the function to pour into the name we give our data frame (and yes, the analogy continues as I think of the frame name as a bucket for storing things in - so the <code>&lt;-</code> allows us to pour data into where it is being stored).</p>
+<p>My file path in the example below says <strong>./</strong> inside the folder we are currently in is a folder called <strong>data</strong> and <strong>/</strong> inside that is a named csv file.</p>
 <pre><code class="language-r">crimes &lt;- read_csv(&quot;./data/2019-01-south-wales-street.csv&quot;)
 </code></pre>
 <pre><code>## Parsed with column specification:
@@ -675,12 +675,12 @@ It will look like this - <code>read_csv(&quot;file_path&quot;)</code>.</p>
 ## )
 </code></pre>
 <p>The output for this will show us what types of columns we have - in this case <code>col_character()</code> means text and <code>col_double()</code> means a number format. All good so far.</p>
-<h2 id="filtering-with-dplyr">Filtering with dplyr</h2>
+<h3 id="filtering-with-dplyr">Filtering with dplyr</h3>
 <p>I want to filter the information so it just includes bicycle thefts. I&rsquo;m going to use some dplyr package tricks to do this.</p>
 <p>I&rsquo;m going to store it in a new data frame called <strong>bikes</strong>. We&rsquo;ll be using the crimes data frame we made earlier and then filtering it, before assigning the new information to bikes. So <code>bikes &lt;- crimes</code>.</p>
-<p>The next bit of the code is <code>%&gt;%</code> a pipe - essentially you can say <strong>and then</strong> to yourself when you write it. Our next function is a filter(), it does a similar job to the Excel function.</p>
+<p>The next bit of the code is <code>%&gt;%</code> a pipe - essentially you can say <strong>and then</strong> to yourself when you write it. Our next function is a filter(), it does a similar job to the Excel function of the same name.</p>
 <p>Most functions will need you to say which data frame you are working on and then what you want to do. So we could say <code>filter(data_frame, column_name == &quot;text we want back&quot;)</code>.</p>
-<p>But dplyr knows we are working on the data frame before the first <code>%&gt;%</code>.</p>
+<p>But dplyr knows we are working on the data frame before the first <code>%&gt;%</code>, so our code becomes simpler and we just need the column name and the text to grab.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <pre><code class="language-r">bikes &lt;- crimes %&gt;%
   filter(`Crime type` == &quot;Bicycle theft&quot;) 
 
@@ -705,7 +705,7 @@ bikes
 ## #   Context &lt;lgl&gt;
 </code></pre>
 <p>The output will show us how many rows (observations) and columns (variables) there are - in this case a 126 x 12. We can start adding some more analysis now.</p>
-<h2 id="filtering-and-renaming-for-speed">Filtering and renaming for speed</h2>
+<h3 id="filtering-and-renaming-for-speed">Filtering and renaming for speed</h3>
 <p>You may notice when we printed the data frame that some of the column names have backticks around them. That&rsquo;s because they&rsquo;ve got a space between the words and R is trying to help out. So, if we wanted to work with our Crime ID column we&rsquo;d actually have to type <code>Crime ID</code> with the back ticks.</p>
 <p>I&rsquo;m too lazy for things like that. I&rsquo;d rather change the name so I can write something easier. We&rsquo;re going to use <code>rename()</code> to do it. We will tell <code>rename()</code> that our <code>&quot;new column name&quot; = &quot;old column name&quot;</code>  - but make sure you put the quote marks around the names when you do this.</p>
 <p>So, I&rsquo;m going to tweak my code from before. I&rsquo;m going to change the name of the <code>Last outcome category</code> and the <code>Crime type</code> columns. I&rsquo;m going to change them to Outcome and Crimes - much shorter to type.</p>
@@ -714,7 +714,7 @@ bikes
   rename(&quot;Outcome&quot; = &quot;Last outcome category&quot;, &quot;Crimes&quot; = &quot;Crime type&quot;) %&gt;%
   filter(Crimes == &quot;Bicycle theft&quot;) 
 </code></pre>
-<h2 id="doing-a-pivot-table-in-dplyr-syntax">Doing a pivot table in dplyr syntax</h2>
+<h3 id="doing-a-pivot-table-in-dplyr-syntax">Doing a pivot table in dplyr syntax</h3>
 <p>Now we can do some digging. I want to know what the police have done about the reported bike thefts.</p>
 <p>We can group things together by our Outcome category and count how often each of the outcomes happen. So, we tell <code>group_by()</code> which column we want to work on. <strong>And then</strong> we tell it what to count - in this case it creates a column called outcome_count and uses the <code>n()</code> function to count the Outcome.</p>
 <pre><code class="language-r">bikes &lt;- crimes %&gt;%
@@ -735,7 +735,7 @@ bikes
 ## 4 Under investigation                                      36
 </code></pre>
 <p>We&rsquo;ve got a pivot table - it has grouped the <strong>Outcome column</strong> and counted how often each one occurs.</p>
-<h2 id="tldr-investigation-complete-no-suspect-identified--no-suspect-identified">TLDR: &ldquo;Investigation complete; no suspect identified&rdquo; = &ldquo;No suspect identified&rdquo;</h2>
+<h2 id="tldr-horrible-description-names-are-horrible">TLDR: horrible description names are horrible</h2>
 <p>We&rsquo;re going to change an element by using the <code>mutate()</code> function - we&rsquo;re going to <code>recode()</code> one of our Outcome categories to shorten it. The code would look like this - <code>mutate(Outcome = recode(Outcome, &quot;Investigation complete; no suspect identified&quot; = &quot;No suspect identified&quot;))</code></p>
 <p>But I&rsquo;d like to order it in descending order - so we can do one more <strong>and then</strong> <code>%&gt;%</code> at the end of our code. We will <code>arrange()</code> our <strong>outcome_count</strong> in <code>desc()</code> - descending order. You must put <code>desc()</code> inside the <code>arrange()</code> function. And check your brackets.</p>
 <pre><code class="language-r">bikes &lt;- crimes %&gt;%
@@ -759,230 +759,71 @@ bikes
 ## 4 Unable to prosecute suspect             1
 </code></pre>
 <p>And we&rsquo;ve got it. A pivot table that tells us what has happened to the bike crimes in the original data set and has put them in descending order.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The text we want back has to be surrounded in quote marks <code>&quot;&quot;</code> as we are looking at text, or a string as it is more properly known. Find out about 
+<a href="https://r4ds.had.co.nz/strings.html" target="_blank" rel="noopener">string manipulation from the R for Data Science book</a>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
-    </div>
+          </div>
 
-    
+          
 
 
 
-<div class="article-tags">
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
   
-  <a class="badge badge-light" href="/tags/police/">Police</a>
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/tutorial/datajournalism/first-graph/" rel="prev">A simple graph from ggplot2</a>
+  </div>
   
 </div>
 
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Apr 9, 2019</p>
+
+          
 
 
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
     
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=/tutorial/pivot-tables-in-r-looking-at-police-data/&amp;text=Pivot%20tables%20in%20R%20-%20looking%20at%20police%20data" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
     
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=/tutorial/pivot-tables-in-r-looking-at-police-data/&amp;t=Pivot%20tables%20in%20R%20-%20looking%20at%20police%20data" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Pivot%20tables%20in%20R%20-%20looking%20at%20police%20data&amp;body=/tutorial/pivot-tables-in-r-looking-at-police-data/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/tutorial/pivot-tables-in-r-looking-at-police-data/&amp;title=Pivot%20tables%20in%20R%20-%20looking%20at%20police%20data" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=Pivot%20tables%20in%20R%20-%20looking%20at%20police%20data%20/tutorial/pivot-tables-in-r-looking-at-police-data/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=/tutorial/pivot-tables-in-r-looking-at-police-data/&amp;title=Pivot%20tables%20in%20R%20-%20looking%20at%20police%20data" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
+  </p>
+</footer>
+
+
+    </main>
+  </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      <img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/c67894490d5c6dc726cacbeef8342222?s=200')" alt="Glyn Mottershead">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/">Glyn Mottershead</a></h5>
-      <h6 class="card-subtitle">Senior Lecturer</h6>
-      <p class="card-text">I have a keen interest in data journalism and developer/journalism. Human computer interaction and journalistic innovation are also areas of research and teaching practise.</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/glynmottershead" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?user=WmVvNOEAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/egrommet" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-  </div>
-</article>
 
       
 
@@ -1041,6 +882,11 @@ bikes
 
     
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
 
     
     
@@ -1093,38 +939,6 @@ bikes
 
 
   
-  
-  <div class="container">
-    <footer class="site-footer">
-  
-  <p class="powered-by">
-    
-      <a href="/privacy/">Privacy Policy</a>
-    
-    
-  </p>
-  
-
-  <p class="powered-by">
-    
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-    
-    <span class="float-right" aria-hidden="true">
-      <a href="#" class="back-to-top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
-    
-  </p>
-</footer>
-
-  </div>
   
 
   
