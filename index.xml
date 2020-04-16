@@ -19,7 +19,7 @@
       <guid>/tutorial/tidyverse/pivot-tables-in-r/</guid>
       <description>&lt;h2 id=&#34;looking-at-police-data-using-tidyverse-tools&#34;&gt;Looking at police data using Tidyverse tools&lt;/h2&gt;
 &lt;p&gt;The Tidyverse tools are one of my favourite things and made my R coding experience much simpler. Most of the things I&amp;rsquo;ll be posting will use them in one way or another.&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;re going to find out what happens when someone reports a stolen bicycle - a friend seems to believe the police do nothing, so let&amp;rsquo;s investigate what actually happens.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re going to find out what happens when someone reports a stolen bicycle - a friend seems to believe the police do nothing, so let&amp;rsquo;s investigate what actually happens when a crime is reported.&lt;/p&gt;
 &lt;h3 id=&#34;downloading-the-data&#34;&gt;Downloading the data&lt;/h3&gt;
 &lt;p&gt;I&amp;rsquo;ve downloaded a month&amp;rsquo;s worth of data for South Wales Police from 
 &lt;a href=&#34;https://data.police.uk/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data.police.uk&lt;/a&gt;.&lt;/p&gt;
@@ -193,7 +193,7 @@ The
 &lt;p&gt;I&amp;rsquo;ve had a look at the webpage and inspired by what I&amp;rsquo;ve seen in the news recently, I&amp;rsquo;m going to look at car crime around the main hospital in Cardiff. You could swap any category in this.&lt;/p&gt;
 &lt;h3 id=&#34;building-our-query-web-address&#34;&gt;Building our query web address&lt;/h3&gt;
 &lt;p&gt;We&amp;rsquo;ll be looking at 
-&lt;a href=&#34;https://data.police.uk/docs/method/crime-street/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;street level crimes&lt;/a&gt;, this call is built is in three parts.&lt;/p&gt;
+&lt;a href=&#34;https://data.police.uk/docs/method/crime-street/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;street level crimes&lt;/a&gt;, this call is built is in three parts:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The basic structure &lt;code&gt;https://data.police.uk/api/crimes-street/&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;The crime type &lt;code&gt;vehicle-crime&lt;/code&gt;&lt;/li&gt;
