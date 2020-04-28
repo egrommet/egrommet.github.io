@@ -32,14 +32,41 @@ Trade surplus/deficit, climate change&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ll be using data from the 
 &lt;a href=&#34;https://cran.r-project.org/web/packages/gapminder/README.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gampinder package&lt;/a&gt; - which gives an excerpt from the gapminder dataset. If you don&amp;rsquo;t know about gapminder and the work of Hans Rosling and the rest of the gampinder team - then 
 &lt;a href=&#34;https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen?language=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;watch this video&lt;/a&gt; - to be fair, I&amp;rsquo;d recommend watching anything that Hans did.&lt;/p&gt;
-&lt;p&gt;The spec from the gapminder pacakge read-me shows the data includes:
-&lt;strong&gt;variable	      meaning&lt;/strong&gt;
-country
-continent
-year
-lifeExp	        life expectancy at birth
-pop	total       population
-gdpPercap	      per-capita GDP&lt;/p&gt;
+&lt;p&gt;The spec from the gapminder pacakge read-me shows the data includes:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Variable&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Meaning&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;country&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;continent&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;year&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;lifeExp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;life expectancy at birth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;pop	total&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;population&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;gdpPercap&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;per-capita GDP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;We&amp;rsquo;re going to have a look at lifeExp to see if there have been any changes. We&amp;rsquo;ll load up the tidyverse (I could just load up the dplyr, tidyr and ggplot2 packages here) and gapminder.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
 &lt;/code&gt;&lt;/pre&gt;

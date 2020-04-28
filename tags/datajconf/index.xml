@@ -5,12 +5,25 @@
     <link>/tags/datajconf/</link>
       <atom:link href="/tags/datajconf/index.xml" rel="self" type="application/rss+xml" />
     <description>Datajconf</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Datajconf</title>
       <link>/tags/datajconf/</link>
     </image>
+    
+    <item>
+      <title>Covid-19 and the European Data and Computational Journalism Conference</title>
+      <link>/post/covid-19-and-the-european-data-journalism-conference/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-19-and-the-european-data-journalism-conference/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ve probably seen the news by now that we&amp;rsquo;ve had to postpone the 
+&lt;a href=&#34;https://www.datajconf.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Data and Computational Journalism Conference&lt;/a&gt; due to Covid-19.&lt;/p&gt;
+&lt;p&gt;I would have posted earlier, but an upgrade and site rebuild means I haven&amp;rsquo;t done much posting here for a while.&lt;/p&gt;
+&lt;p&gt;Plans to host the conference at City, University of London (my current place of employment) were in full swing when the organising committee had to take the decision to cancel due to everyone&amp;rsquo;s safety.&lt;/p&gt;
+&lt;p&gt;Our plan is a break rather than a farewell, but if you want to have a chat with us between now and DataJConf 2021, then please get in touch!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Data Journalism in Malaga</title>
