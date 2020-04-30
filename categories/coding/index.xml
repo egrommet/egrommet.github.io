@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding | Glyn Mottershead</title>
+    <link>/categories/coding/</link>
+      <atom:link href="/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <description>coding</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>coding</title>
+      <link>/categories/coding/</link>
+    </image>
+    
+    <item>
+      <title>Coding for journalists - an evolving reading list</title>
+      <link>/post/coding-for-journalists/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/coding-for-journalists/</guid>
+      <description>&lt;p&gt;Investigative data journalist (Leila Haddou)[https://twitter.com/leilahaddou?lang=en] joined us in #datalockdown to deliver a lecture to data and investigative journalism students from City, University of London, Birmingham City University, and De Montfort University on April 30.&lt;/p&gt;
+&lt;p&gt;One point that came up during te session is that a lot of coding resources are not aimed at journalists. So, I thought I&amp;rsquo;d start pulling together a list of sources and some thoughts about them.&lt;/p&gt;
+&lt;p&gt;The initial version of this post will be biased towards R, as that is why I tend to work in. I&amp;rsquo;ll add Python and other resources as I go along.&lt;/p&gt;
+&lt;p&gt;Also, it doesn&amp;rsquo;t matter if you call it coding, programming or any of the other terms - I&amp;rsquo;m going to assume that we are talking about the data journalism workflow (acquiring, cleaning, analysing and displaying and equivalents) rather than building apps or websites.&lt;/p&gt;
+&lt;p&gt;Want to add anything? Tweet @glynmottershead with the hashtag #codereadinglist.&lt;/p&gt;
+&lt;h2 id=&#34;cross-language&#34;&gt;Cross language&lt;/h2&gt;
+&lt;p&gt;Datacamp has a lot of materials to support training, you can pay for an account or if you are an educator it is possible for you to 
+&lt;a href=&#34;https://www.datacamp.com/groups/education&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;register your class for educational access&lt;/a&gt;. It&amp;rsquo;s really useful but one thing to point out is it is aimed at data scientists rather than journalists. This can mean that some of the exercises may not seem obvious at first, but stick with it.&lt;/p&gt;
+&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+&lt;p&gt;Any course listed is not necessarily a recommendation.&lt;/p&gt;
+&lt;h2 id=&#34;groups&#34;&gt;Groups&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://journocoders.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Journocoders&lt;/a&gt; is a group I would recommend attending when lockdown is finished.&lt;/p&gt;
+&lt;h2 id=&#34;r-programming&#34;&gt;R Programming&lt;/h2&gt;
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sharon Machlis has put six chapters of her book 
+&lt;a href=&#34;http://www.machlis.com/R4Journalists/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R for Mass Communication and Jouranlism online for free&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;This is a brilliant book on 
+&lt;a href=&#34;https://r4ds.had.co.nz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R for Data Science by Hadley Wickham and Garrett Grolemund&lt;/a&gt;. It covers a lot of the key principles required by data journalists, but again the examples might not always resonate. I always recommend getting to grips with the tidyverse suite of tools (covered in the book), as it makes your code a lot easier to read.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;websites&#34;&gt;Websites&lt;/h3&gt;
+&lt;h2 id=&#34;python-programming&#34;&gt;Python programming&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://automatetheboringstuff.com/&#34;&gt;http://automatetheboringstuff.com/&lt;/a&gt; - a recommendation from Mindy McAdams&lt;/p&gt;
+&lt;h2 id=&#34;data-visualisation&#34;&gt;Data visualisation&lt;/h2&gt;
+&lt;p&gt;Nathan Yau &lt;a href=&#34;https://flowingdata.com/&#34;&gt;https://flowingdata.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;other-tools-and-languages&#34;&gt;Other tools and languages&lt;/h2&gt;
+&lt;p&gt;Although I point out this list isn&amp;rsquo;t about web dev - if you want to understand web scraping then an understanding of web page structure is important, so I recommend 
+&lt;a href=&#34;https://www.w3schools.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;w3 schools&lt;/a&gt; as one starting point.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
